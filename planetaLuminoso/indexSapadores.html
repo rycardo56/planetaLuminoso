@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Planeta Luminoso</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/templatemo-main.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link rel="icon" type="imagem/png" href="img/simpleIconModify.png">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <style>
+            .hello{
+                text-align: center;
+            }
+        </style>
+    </head>
+<!--
+Vanilla Template
+https://templatemo.com/tm-526-vanilla
+-->
+<body>
+
+    
+    
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="first-content">
+                <h2 style="position: absolute; text-align: left;top: 8px;left: 10px;">
+                    <a href="index.html">
+                    <img src="img/logoEsquilo-removebg-preview.png" alt="" width="165" height="80"></h2>
+                </a>
+                <h1 style="color: rgb(56, 44, 44);margin-top: 10px;">Planeta Luminoso</h1>
+                <span><em style="color: rgb(73, 73, 65);">Por um futuro melhor</em></span>
+                <div class="primary-button">
+                    <a href="index2.html" style="color:white; background-color: rgb(37, 36, 36);">Sobre Nós</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="service-content" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left-text">                        
+                        <h4>Sapadores Florestais<br></h4>
+                        <div class="line-dec"></div>
+                        <p class="centro">
+                            O Sapador Florestal é um trabalhador especializado, com perfil e formação específica adequados ao exercício das funções de gestão florestal e defesa da floresta, designadamente, através de:
+                            <br>
+                           <strong> I)</strong> Ações de silvicultura;<br>
+                           <strong> II)</strong> Gestão de combustíveis;<br>
+                           <strong> III)</strong> Acompanhamento na realização de fogo controlado;<br>
+                           <strong> IV)</strong> Apoio à realização de queimas e de queimadas;<br>
+                           <strong> V)</strong> Ações de controlo e eliminação de agentes bióticos;<br>
+                           <strong> VI)</strong> Vigilância das áreas a que se encontra adstrito, ou estabelecido em POM;<br>
+                           <strong> VII)</strong> Primeira intervenção em incêndios florestais; <br>
+                           <strong> VIII)</strong> Proteção a pessoas e bens prevista em Diretiva Operacional aprovada pela Comissão Nacional de Proteção Civil.<br>
+                            
+                           
+                           <!-- <a rel="nofollow" href="https://templatemo.com">website</a> -->
+                        
+                        </p>
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+                <ul class="slider">
+                    <li>
+                        <input type="radio" name="slide" id="slide1" checked>
+                        <label for="slide1"></label>
+                        <img style="width: 640px; height: 359px;" src="img/sapadoreshole.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="radio" name="slide" id="slide2">
+                        <label for="slide2"></label>
+                        <img style="width: 640px; height: 359px;" src="img/sapadoresFlorestais3.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="radio" name="slide" id="slide3">
+                        <label for="slide3"></label>
+                        <img style="width: 640px; height: 359px;" src="img/sapadores-florestais4.jpg" alt="">
+                    </li>
+                </ul>
+                    
+                    
+               
+    
+    
+
+    
+
+    
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            document.getElementById(cityName).style.display = "block";  
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>
+
+</body>
+</html>
